@@ -8,9 +8,9 @@ b = int(input("Enter your last postive number: "))
 for x in range(a,b+1):
     if x>1:
 
-        for i in range(2,x):
+        for x in range(2,x):
             if x%1==0:
-                break
-        else:
-            print(x)    
+                break 
+            else:
+                print(x)  
 
